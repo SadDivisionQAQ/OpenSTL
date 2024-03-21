@@ -45,10 +45,10 @@ def plot_world_map(out_path=None):
     map = Basemap()
     map.drawcoastlines(linewidth=2)
     map.drawcountries(linewidth=1)
-    plt.show()
+    # plt.show()
     if out_path is not None:
         plt.savefig(out_path, dpi=300, format='png')
-    plt.close()
+    # plt.close()
 
 
 def get_mpl_colormap(cmap_name):
