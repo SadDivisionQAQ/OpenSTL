@@ -48,7 +48,7 @@ def plot_world_map(out_path=None):
     # plt.show()
     if out_path is not None:
         plt.savefig(out_path, dpi=300, format='png')
-    # plt.close()
+    plt.close()
 
 
 def get_mpl_colormap(cmap_name):
